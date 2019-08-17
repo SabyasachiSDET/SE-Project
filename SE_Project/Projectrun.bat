@@ -1,0 +1,1 @@
+java -cp bin;Jars/jars/* org.testng.TestNG LanguageAutoProject.xml

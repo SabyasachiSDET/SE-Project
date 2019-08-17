@@ -1,0 +1,14 @@
+2019-08-14 17:58:11,307 - rootLogger - INFO - All Excel Files Initialised successfully.
+2019-08-14 17:58:11,312 - rootLogger - INFO - Param.properties file loaded successfully.
+2019-08-14 17:58:11,314 - rootLogger - INFO - Objects.properties file loaded successfully.
+2019-08-14 17:58:11,314 - rootLogger - INFO - Execution started for SuiteOneBase.
+2019-08-14 17:58:11,500 - rootLogger - INFO - All Excel Files Initialised successfully.
+2019-08-14 17:58:11,502 - rootLogger - INFO - Param.properties file loaded successfully.
+2019-08-14 17:58:11,504 - rootLogger - INFO - Objects.properties file loaded successfully.
+2019-08-14 17:58:11,504 - rootLogger - INFO - FUSEPseudoChangeSessionlanguageAccounts : Execution started.
+2019-08-14 17:58:16,454 - rootLogger - INFO - Firefox Driver Instance loaded successfully.
+2019-08-14 17:58:25,531 - rootLogger - INFO - Step1: Login to the environment
+2019-08-14 17:58:41,317 - rootLogger - INFO - Step2: Navigate to the account tab
+2019-08-14 17:58:48,911 - rootLogger - INFO - Step3: Create Account
+2019-08-14 17:58:54,628 - rootLogger - INFO - FUSEPseudoChangeSessionlanguageAccounts : Reporting test data set line 1 as PASS In excel.
+2019-08-14 17:58:57,138 - rootLogger - INFO - FUSEPseudoChangeSessionlanguageAccounts : Reporting test case as PASS In excel.

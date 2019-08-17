@@ -1,0 +1,9 @@
+2019-08-10 03:29:52,620 - rootLogger - INFO - All Excel Files Initialised successfully.
+2019-08-10 03:29:52,625 - rootLogger - INFO - Param.properties file loaded successfully.
+2019-08-10 03:29:52,625 - rootLogger - INFO - Objects.properties file loaded successfully.
+2019-08-10 03:29:52,625 - rootLogger - INFO - Execution started for SuiteOneBase.
+2019-08-10 03:29:52,818 - rootLogger - INFO - All Excel Files Initialised successfully.
+2019-08-10 03:29:52,820 - rootLogger - INFO - Param.properties file loaded successfully.
+2019-08-10 03:29:52,820 - rootLogger - INFO - Objects.properties file loaded successfully.
+2019-08-10 03:29:52,823 - rootLogger - INFO - FUSEPseudoChangeSessionlanguageAccounts : Execution started.
+2019-08-10 03:29:52,893 - rootLogger - INFO - FUSEPseudoChangeSessionlanguageAccounts : Reporting test data set line 1 as PASS In excel.

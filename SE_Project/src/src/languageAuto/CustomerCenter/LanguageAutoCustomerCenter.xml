@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="LanguageAutoCustomerCenter">
+
+<!-- If add more test cases In this suite, You need to add them as bellow. -->
+
+<test name="FUSEPseudoChangeSessionlanguageAccounts">
+    <classes>
+        <class name="src.languageAuto.CustomerCenter.FUSEPseudoChangeSessionlanguageAccounts" ></class>  
+    </classes>
+</test>
+
+</suite>

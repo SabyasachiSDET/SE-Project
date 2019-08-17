@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="LanguageAutoCustomerCenter" duration-ms="0" started-at="2019-08-14T12:28:57Z" finished-at="2019-08-14T12:28:57Z">
+    <groups>
+    </groups>
+  </suite> <!-- LanguageAutoCustomerCenter -->
+  <suite name="LanguageAutoCustomerCenter (0)" duration-ms="45736" started-at="2019-08-14T12:28:11Z" finished-at="2019-08-14T12:28:57Z">
+    <groups>
+    </groups>
+    <test name="FUSEPseudoChangeSessionlanguageAccounts" duration-ms="45736" started-at="2019-08-14T12:28:11Z" finished-at="2019-08-14T12:28:57Z">
+      <class name="src.languageAuto.CustomerCenter.FUSEPseudoChangeSessionlanguageAccounts">
+        <test-method status="PASS" signature="checkSuiteToRun()[pri:0, instance:src.languageAuto.CustomerCenter.FUSEPseudoChangeSessionlanguageAccounts@48140564]" name="checkSuiteToRun" is-config="true" duration-ms="860" started-at="2019-08-14T17:58:10Z" finished-at="2019-08-14T17:58:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSuiteToRun -->
+        <test-method status="PASS" signature="checkCaseToRun()[pri:0, instance:src.languageAuto.CustomerCenter.FUSEPseudoChangeSessionlanguageAccounts@48140564]" name="checkCaseToRun" is-config="true" duration-ms="76" started-at="2019-08-14T17:58:11Z" finished-at="2019-08-14T17:58:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkCaseToRun -->
+        <test-method status="FAIL" signature="SuiteOneCaseOneTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:src.languageAuto.CustomerCenter.FUSEPseudoChangeSessionlanguageAccounts@48140564]" name="SuiteOneCaseOneTest" duration-ms="43106" started-at="2019-08-14T17:58:11Z" data-provider="SuiteOneCaseOneData" finished-at="2019-08-14T17:58:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AutoAccount]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[300 Oracle Parkway]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[94065]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Data4]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[Element <button id="_FOpt1:_FOr1:0:_FOSrZCM_CUSTOMERCTRINFRA360_CUSTOMERS_CRM_CARD:0:_FOTsr1:0:pt1:ls1:createAcctBtn" class="af_commandButton p_AFTextOnly"> is not clickable at point (815.5,249) because another element <div class="af_document_splash-screen-cell"> obscures it
+Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:32:14.902Z'
+System info: host: 'SABYMISH-LAP', ip: '10.184.39.30', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 60.8.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 16184, moz:profile: C:\Users\sabymish.ORADEV\Ap..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.1, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: f349ff27-07f4-435e-8e00-819464a86aa1]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: Element <button id="_FOpt1:_FOr1:0:_FOSrZCM_CUSTOMERCTRINFRA360_CUSTOMERS_CRM_CARD:0:_FOTsr1:0:pt1:ls1:createAcctBtn" class="af_commandButton p_AFTextOnly"> is not clickable at point (815.5,249) because another element <div class="af_document_splash-screen-cell"> obscures it
+Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:32:14.902Z'
+System info: host: 'SABYMISH-LAP', ip: '10.184.39.30', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 60.8.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 16184, moz:profile: C:\Users\sabymish.ORADEV\Ap..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.1, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: f349ff27-07f4-435e-8e00-819464a86aa1
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:276)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at src.languageAuto.CustomerCenter.FUSEPseudoChangeSessionlanguageAccounts.SuiteOneCaseOneTest(FUSEPseudoChangeSessionlanguageAccounts.java:136)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1211)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SuiteOneCaseOneTest -->
+        <test-method status="PASS" signature="reporterDataResults()[pri:0, instance:src.languageAuto.CustomerCenter.FUSEPseudoChangeSessionlanguageAccounts@48140564]" name="reporterDataResults" is-config="true" duration-ms="66" started-at="2019-08-14T17:58:54Z" finished-at="2019-08-14T17:58:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reporterDataResults -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:src.languageAuto.CustomerCenter.FUSEPseudoChangeSessionlanguageAccounts@48140564]" name="closeBrowser" is-config="true" duration-ms="2469" started-at="2019-08-14T17:58:54Z" finished-at="2019-08-14T17:58:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- src.languageAuto.CustomerCenter.FUSEPseudoChangeSessionlanguageAccounts -->
+    </test> <!-- FUSEPseudoChangeSessionlanguageAccounts -->
+  </suite> <!-- LanguageAutoCustomerCenter (0) -->
+</testng-results>
